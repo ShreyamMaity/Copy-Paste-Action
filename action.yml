@@ -1,6 +1,6 @@
 name: Copy Paste Action
 author: Shreyam Maity
-description: This GitHub Action to copy one markdown file data and paste it to another markdown files specific location.Like Updating Readme.md using another md file.
+description: This GitHub Action to copy one markdown file data and paste it to another markdown files specific location.Like Updating Readme.md
 
 
 inputs:
