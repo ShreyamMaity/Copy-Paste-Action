@@ -40,12 +40,16 @@ The following example [workflow step](https://help.github.com/en/actions/configu
 
 ```yml
 name: Test Workflow
-on: push
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
-  first-job:
+  Update-Readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Run Action
+      - name: Copy Paste Action
         uses: ShreyamMaity/Copy-Paste-Action@main
         with:
           TOKEN: ${{ secrets.TOKEN }}
