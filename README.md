@@ -91,7 +91,7 @@ The following input variable options can/must be configured:
 
 ## Author
 
-The Copycat GitHub action is written by [Shreyam Maity](https://github.com/ShreyamMaity)
+The Copy Paste GitHub action is written by [Shreyam Maity](https://github.com/ShreyamMaity)
 
 ## License
 
