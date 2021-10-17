@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Action
-        uses: ShreyamMaity/Copy-Paste-Action@master
+        uses: ShreyamMaity/Copy-Paste-Action@main
         with:
           TOKEN: ${{ secrets.TOKEN }}
           REPOSITORY : 'Your Repository Name'
