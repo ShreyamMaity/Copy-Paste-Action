@@ -20,7 +20,7 @@ inputs:
     
 runs:
   using: docker 
-  image: 'Dockerfile' 
+  image: 'docker://shreyammaity/copy-paste' 
 # for Publishing
 branding: 
   icon: copy
